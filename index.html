@@ -10,13 +10,13 @@
     <link rel="apple-touch-icon" href="logo192.png" />
     <link rel="manifest" href="manifest.json" />
     <title>React App</title>
-    <script defer="defer" src="static/js/main.844ab58e.js"></script>
+    <script defer="defer" src="static/js/main.37e7d3f5.js"></script>
     <link href="static/css/main.95ddde5f.css" rel="stylesheet">
 </head>
 
 <body onload="addPaymentScript()"><noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <script>function addPaymentScript() { let e = document.createElement("script"); e.setAttribute("src", "https://js.chargebee.com/v2/chargebee.js"), e.setAttribute("data-cb-site", "cedcommerce-test"), document.body.appendChild(e), console.log(document, e, "pl") }</script>
+    <script>function addPaymentScript() { let e = "cedcommerce"; "_sandbox" == new URLSearchParams(window.location.search).get("mode") && (e = "cedcommerce-test"); let t = document.createElement("script"); t.setAttribute("src", "https://js.chargebee.com/v2/chargebee.js"), t.setAttribute("data-cb-site", e), document.body.appendChild(t) }</script>
 </body>
 
 </html>
